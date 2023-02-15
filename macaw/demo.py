@@ -18,7 +18,7 @@ from macaw.utils import SLOT_FROM_LC, GENERATOR_OPTIONS_DEFAULT, decompose_slots
 ## Start demo with "streamlit run macaw/demo.py"
 
 # CONFIGURATION
-MODEL_NAME_OR_PATH = "allenai/macaw-large"  # Name or path to model
+MODEL_NAME_OR_PATH = "AlexanderDaly/macaw-large"  # Name or path to model
 CUDA_DEVICES = []   # List of available CUDA devices if any, e.g., [0] or [0, 2]
 LOG_FILE = "macaw_demo.log"  # Where to save a log
 REST_API_PORT = 8502 # Which port to use for API, set to None for no API
